@@ -1,11 +1,10 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import Google from "next-auth/providers/google";
 import { signIn } from "next-auth/react";
 import { useSession } from 'next-auth/react'
 import { redirect } from "next/dist/server/api-utils";
 import { useRouter } from "next/router";
-import Image from 'next/image'
 // const inter = Inter({ subsets: ['latin'] })
 require('dotenv').config();
 
